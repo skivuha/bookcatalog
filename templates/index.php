@@ -8,10 +8,9 @@
 </head>
 <body>
 <div class="main">
-	<div class="header">
-		<a href="/"><img class="logo" src="../templates/images/logo.jpg" alt="Bookshop" /></a>
-		<span><h1><p>BookShop "Modest"</p></h1></span>
-    </div>
+	<div class="logoa">
+	<h1><a href="/" class="header">Catalog</a></h1>
+		</div>
     <div id="contentwrapper">
 		<div id="content">
         	<div class="catalog-index">

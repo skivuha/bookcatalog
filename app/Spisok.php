@@ -8,7 +8,7 @@ class Spisok {
 		$listofAuthors = $objMysql->listAuthors();
 		if (!empty($listofAuthors))
 		{
-			foreach ($listofAuthors as $author )
+			foreach ($listofAuthors as $author)
 			{
 				$authors .= "<p><a href = index.php?page=authors&author_id=".$author["id"].">".$author["name"]."</a></p>";
 			}

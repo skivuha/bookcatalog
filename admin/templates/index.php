@@ -7,9 +7,8 @@
 </head>
 <body>
 <div class="main">
-	<div class="header">
-		<a href="/"><img class="logo" src="../templates/images/logo.jpg" alt="Bookshop" /></a>
-		<h1><p>BookShop</p></h1>
+	<div class="logoa">
+		<h1><a href="/admin" class="header">Catalog</a></h1>
 	</div>
 	<div id="contentwrapper">
 		<div id="content">

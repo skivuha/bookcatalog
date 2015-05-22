@@ -16,12 +16,14 @@ class Books
 		require_once 'templates/index.php';
 	}
 
-	public function sendmail($book_name)
+	public function sendmail($book_id)
 	{
-		$quantity = (int)$_POST[quantity];
-		$firstname = htmlspecialchars(trim($_POST[firstname]));
-		$lastname = htmlspecialchars(trim($_POST[lastname]));
-		$text = htmlspecialchars(trim($_POST[text]));
-		$rez = mail("admin@test.ru","$book_name","Want to buy $quantity pcs.\n$book_name.\nMy name is $firstname $lastname.\nMy address $text.\nPlease contact me.");
+		$quantity = (int)$_POST['quantity'];
+		$firstname = htmlspecialchars(trim($_POST['firstname']));
+		$lastname = htmlspecialchars(trim($_POST['lastname']));
+		$text = htmlspecialchars(trim($_POST['text']));
+		$rez = mail("admin@test.ru","$book_id","Want to buy $quantity pcs
+		.\n.\nMy name is $firstname $lastname.\nMy address $text.\nPlease
+		contact me.");
 	}
 }

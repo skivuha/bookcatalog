@@ -1,4 +1,5 @@
 <?php
+
 class Home
 {
 	public function getBook()

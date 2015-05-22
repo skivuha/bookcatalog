@@ -1,0 +1,8 @@
+AuthType Basic
+AuthName "Administrator"
+AuthUserFile C:\OpenServer\domains\bookcatalog\admin\.htpasswd
+require valid-user
+AddDefaultCharset UTF-8
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [PT]
